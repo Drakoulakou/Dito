@@ -1,0 +1,27 @@
+.image-wrapper:hover .btn-heart{
+    display: block;
+}
+.image-wrapper:hover .btn{
+    display: block;
+}
+
+.btn{
+    position: absolute;
+    display: none;
+    top: 35px;
+    right: 40px;
+    height: 25px;
+    width: 24px;
+    border-radius: 25px;
+}
+.btn-heart{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    background: none;
+}
+.btn-heart img{
+    height: 25px;
+    width: 24px;
+}

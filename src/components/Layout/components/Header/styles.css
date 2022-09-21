@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+    background-color: #9ddd9d;
+    padding: 10px 35px;
+    color: #584041;
+}
+.home-link{
+    text-decoration: none;
+    color: #584041;
+}
+.cart-icon{
+    width: 50px;
+    color: #584041;
+}

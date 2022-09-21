@@ -4,29 +4,37 @@
     margin: 20px;
 }
 
-.cart-image {
+.cart-images-wrapper .cart-image {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.first-column {
+.cart-images-wrapper .first-column {
     display: flex;
     align-items: center;
 }
 
-.image {
+.cart-images-wrapper .image {
     width: 240px;
     margin: 20px;
 }
 
-.btn {
+.cart-images-wrapper .btn-place-order {
     width: 150px;
     margin: 0 auto;
     height: 55px;
+    background-color: #9ddd9d;
+    border-radius: 25px;
 }
 
-.total-price {
+.cart-images-wrapper .total-price {
     margin-left: auto;
+}
+.cart-images-wrapper .delete-btn{
+    background-color: #9ddd9d;
+    border-radius: 25px;
+    width: 65px;
+    height: 35px
 }

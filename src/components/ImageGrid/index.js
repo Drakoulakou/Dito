@@ -1,14 +1,14 @@
+import './styles.css';
 import { useContext } from "react";
 import { Context } from '../../App';
+import Image from './components/Image';
 
 function ImageGrid() {
-    const { addItem, images } = useContext(Context);
+    const { images } = useContext(Context);
 
     function getContent() {
         return images.map(image => (
-            <div onClick={() => addItem(image)} className='image-wrapper' key={image.id}>
-                <img className='image' src={image.url} />
-            </div>
+            <Image image={image} />
         ))
     }
 
