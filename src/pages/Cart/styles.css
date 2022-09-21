@@ -1,0 +1,32 @@
+.cart-images-wrapper {
+    display: flex;
+    flex-flow: column;
+    margin: 20px;
+}
+
+.cart-image {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-column {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 240px;
+    margin: 20px;
+}
+
+.btn {
+    width: 150px;
+    margin: 0 auto;
+    height: 55px;
+}
+
+.total-price {
+    margin-left: auto;
+}
